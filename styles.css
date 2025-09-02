@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.hero-container{
+    background-color: rgb(33, 44, 67);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hero-item{
+    height: 40px;
+    width: 100%;
+    flex: 1 1 auto;
+    color: white;
+}
+
+#hero-main{
+    height: 40%;
+    font-size: 98px;
+}
+
+.hero-divider{
+    display: flex;
+    height: 100%;
+    padding: 20px;
+}
+
+.sub-hero-divider{
+    flex: 1;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+#working-picture{
+    width: 300px;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid white;
+
+}
+
+.nav-bar-item{
+    padding-top: 5px;
+    flex: 1;  
+    font-size: 24px;
+}
+
+#link-container{
+    display: flex;
+    width: 100%;
+    margin-left: 30%;
+}
+
+.links{
+    flex: 0 1 auto;
+    padding-right: 20px;
+}
+
+.logo{
+    flex: 1;
+    padding-left: 200px;
+    min-width: 200px;
+    padding-right: auto;
+}
+
+.logo-holder{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text{
+    width: 350px;
+    font-size: 18px;
+    margin: auto auto;
+    text-align: left;
+    line-height: 25px;
+}
+
+#hero-title{
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.examples-container{
+    height: 200px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 80px;
+}
+
+.example-item{
+    flex: 0 0 auto;
+    border: 3px solid rgb(118, 159, 247);
+    width: 150px;
+    height: 125px;
+    border-radius: 5px;
+}
+
+.example-sub-container{
+    text-align: center;
+    width: 150px;
+    height: 200px;
+}
+
+.quote{
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.famous-quote{
+    height: 230px;
+    background-color: rgb(199, 196, 196);
+}
+
+#Jefferson-Quote{
+    text-align: center;
+    font-size: 24px;
+    padding: 100px;
+}
+
+.cta-container{
+    height: 200px;
+    background-color: white;
+}
+
+.cta{
+    display: flex;
+    background-color: rgb(15, 122, 210);
+    width: 800px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.cta-item{
+    color: white;
+    font-size: 24px;
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+}
+
+
+#contact-sub{
+    font-size: 12px;
+    color: rgb(222, 222, 222);
+}
+
+#contact-button{
+    border: 2px solid rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 12px;
+    padding: 5px;
+    margin: auto;
+}
+
+.checkmark{
+    width: 1px;
+    height: auto;
+}
